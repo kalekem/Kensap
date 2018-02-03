@@ -1,0 +1,4 @@
+CREATE VIEW kensap_21_view
+	AS
+	SELECT firstname, lastname, email_address, college 
+	FROM [dbo].[kensap_2021]
