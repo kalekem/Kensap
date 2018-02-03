@@ -1,0 +1,31 @@
+CREATE PROC all_kensap_students
+AS
+BEGIN
+	SELECT * FROM [dbo].[kensap_09_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_10_view]
+	UNION
+	SELECT * FROM [dbo].[kensap_11_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_12_view]
+	UNION
+	SELECT * FROM [dbo].[kensap_13_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_14_view]
+	UNION
+	SELECT * FROM [dbo].[kensap_15_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_16_view]
+	UNION
+	SELECT * FROM [dbo].[kensap_17_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_18_view]
+	UNION
+	SELECT * FROM [dbo].[kensap_19_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_20_view]
+	UNION 
+	SELECT * FROM [dbo].[kensap_21_view]
+END;
+
+EXECUTE all_kensap_students 
