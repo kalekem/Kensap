@@ -1,0 +1,6 @@
+CREATE PROC kensap_2009_proc
+AS
+BEGIN
+	SELECT firstname, lastname, email_address, college
+	FROM kensap_2009
+END;
